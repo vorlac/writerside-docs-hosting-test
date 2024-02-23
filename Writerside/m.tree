@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="m"
+                  name="Reference Guide"
+                  start-page="reference-guide.topic">
+
+    <toc-element topic="reference-guide.topic">
+        <toc-element topic="Internal-Data-Reference.md"/>
+        <toc-element topic="External-Data-Reference.md">
+            <toc-element topic="Tables.md"/>
+            <toc-element topic="PlantUML.md">
+                <toc-element topic="Simple-Diagram.md"/>
+                <toc-element topic="Mind-Map.md"/>
+                <toc-element topic="Class-Diagram.md"/>
+                <toc-element topic="Gantt-Chart.md"/>
+                <toc-element topic="JSON-Diagram.md"/>
+                <toc-element topic="Use-case-Diagram.md"/>
+            </toc-element>
+        </toc-element>
+    </toc-element>
+</instance-profile>

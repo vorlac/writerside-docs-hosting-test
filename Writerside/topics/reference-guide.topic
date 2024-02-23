@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic help-id="trimble-maps-data-reference-guide"
+       id="reference-guide"
+       title="Reference Guide"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd">
+
+    <p>
+        This topic page can represent the landing page for all documentation involving map data.
+    </p>
+
+    <note>
+        <p>
+            <control>Highlight important information.</control>
+        </p>
+        <p>
+            You can change this element to <code>&lt;tip&gt;</code> or <code>&lt;warning&gt;</code>.
+        </p>
+    </note>
+
+    <p>Here's an example of a shortcut that can be used in the IDE.
+        Press
+        <shortcut key="Generate"/>
+        to open the
+        <control>Insert</control>
+        popup
+        and quickly generate markup for images, links, and tables:
+    </p>
+
+    <chapter id="overview" title="Overview">
+        <p>It is good practice to list the prerequisites that are required or recommended.</p>
+
+        <p>Prerequisite Topics:</p>
+        <list>
+            <li>Grid System</li>
+            <li>Aggregation</li>
+            <li>GIS Data vs Product Data</li>
+        </list>
+    </chapter>
+
+    <chapter id="high-level-structure" title="Maps Data High Level Structure">
+        <p>
+            Avoid writing procedures that are longer than 5 steps to keep it simple.
+            If the title of a procedure repeats the chapter title,
+            consider dropping the 'title' attribute of the procedure.
+        </p>
+
+        <procedure id="steps-sequence" title="How to title">
+            <step>
+                <p>Step with a code block.</p>
+
+                <code-block lang="plain text">
+                    Hello, world!
+                </code-block>
+            </step>
+
+            <step>
+                Step with a <a href="https://www.jetbrains.com">link</a>.
+            </step>
+
+            <step>
+                <p>Step with a list.</p>
+
+                <list>
+                    <li>
+                        <p>List item.</p>
+                    </li>
+                    <li>
+                        <p>List item.</p>
+                    </li>
+                    <li>
+                        <p>List item.</p>
+                    </li>
+                </list>
+            </step>
+        </procedure>
+    </chapter>
+
+
+    <chapter id="table-xml-example" title="How to include a table using HTML">
+        <p>
+            See source file for example.
+        </p>
+
+        <procedure id="table-topic-example" title="How to title">
+            <step>
+                <p>
+                    Step with a table
+                </p>
+                <table>
+                    <tr>
+                        <td>a</td>
+                        <td>b</td>
+                        <td>c</td>
+                        <td>d</td>
+                        <td>e</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>a</td>
+                        <td>a</td>
+                        <td>a</td>
+                        <td>a</td>
+                        <td>a</td>
+                    </tr>
+                    <tr>
+                        <td>z</td>
+                        <td>z</td>
+                        <td>z</td>
+                        <td>z</td>
+                        <td>z</td>
+                    </tr>
+                </table>
+            </step>
+
+            <step>
+                Step with a <a href="https://www.jetbrains.com">link</a>.
+            </step>
+
+            <step>
+                <p>Step with a list.</p>
+
+                <list>
+                    <li>
+                        <p>List item.</p>
+                    </li>
+                    <li>
+                        <p>List item.</p>
+                    </li>
+                    <li>
+                        <p>List item.</p>
+                    </li>
+                </list>
+            </step>
+        </procedure>
+
+
+    </chapter>
+</topic>
